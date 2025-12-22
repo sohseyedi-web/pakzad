@@ -12,8 +12,8 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-3">پیشتاز تامین پاکزاد مهر</h3>
 
           <p className="text-sm mb-4 leading-7">
-            آدرس : استان خوزستان، شهرستان اهواز، بخش مرکزی، شهر اهواز، کوی کیانپارس، خیابان ایدون،
-            خیابان شهید مطهری، پلاک ۸۹، طبقه همکف
+            آدرس : استان تهران شهرستان تهران شهر تهران - مرکزی میدان امام خمینی (ره) کوچه بوشهری
+            خیابان سعدی پلاک ۲۱۸ طبقه همکف
           </p>
 
           <div className="flex items-center gap-4 mt-4">
@@ -38,6 +38,7 @@ export default function Footer() {
             <Customlink title="خانه" to="/" />
             <Customlink title="تجهیزات" to="/equipment" />
             <Customlink title="پروژه ها" to="/projects" />
+            <Customlink title="چارت سازمانی" to="/structure" />
             <Customlink title="درباره ما" to="/about-us" />
             <Customlink title="تماس با ما" to="/contact-us" />
           </ul>
@@ -46,8 +47,8 @@ export default function Footer() {
         {/* ستون سوم */}
         <div>
           <h3 className="text-xl font-bold mb-3">ارتباط با ما</h3>
-          <p className="text-sm mb-2">تلفن ۱: 09121234567</p>
-          <p className="text-sm mb-2">تلفن ۲: 02112345678</p>
+          <p className="text-sm mb-2">تلفن ۱: ۰۹۱۶۷۶۶۰۶۷۸</p>
+          <p className="text-sm mb-2">تلفن ۲: ۰۹۱۶۵۹۵۰۶۹۷</p>
           <p className="text-sm mt-4">ایمیل: info@example.com</p>
         </div>
       </div>

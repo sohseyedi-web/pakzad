@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center space-x-4">
         <div className="bg-orange-500 flex items-center gap-4 px-5 py-2 rounded-lg">
-          <a href="tel:09121231234" className="text-white">
+          <a href="tel:09377930021" className="text-white">
             <LuPhone className="md:size-6 size-5" />
           </a>
           <a href="mailto:info@example.com" className="text-white">
