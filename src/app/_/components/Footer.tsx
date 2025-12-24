@@ -44,16 +44,15 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* ستون سوم */}
         <div>
           <h3 className="text-xl font-bold mb-3">ارتباط با ما</h3>
           <p className="text-sm mb-2">تلفن ۱: ۰۹۱۶۷۶۶۰۶۷۸</p>
           <p className="text-sm mb-2">تلفن ۲: ۰۹۱۶۵۹۵۰۶۹۷</p>
+          <p className="text-sm mb-2">تلفن ۳: ۰۹۳۷۷۹۳۰۰۲۱</p>
           <p className="text-sm mt-4">ایمیل: info@example.com</p>
         </div>
       </div>
 
-      {/* کپی‌رایت */}
       <div className="text-center text-xs text-gray-400 mt-10 border-t border-white/20 pt-4">
         © 2025 پیشتاز تامین پاکزاد مهر - تمام حقوق محفوظ است
       </div>

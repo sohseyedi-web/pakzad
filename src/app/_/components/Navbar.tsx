@@ -9,7 +9,7 @@ const Navbar = () => {
   const { active, setActive } = useResponsive();
 
   return (
-    <nav className="md:px-7 px-3 flex items-center justify-between border-b-2 border-zinc-500 container mx-auto">
+    <nav className="md:px-7 px-3 flex items-center justify-between border-b-2 border-zinc-200 bg-[#fafafa] container mx-auto">
       <div className="flex items-center space-x-7">
         <Image
           src="/logo.webp"
