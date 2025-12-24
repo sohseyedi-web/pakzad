@@ -29,7 +29,7 @@ const ContactUs = () => {
       <div className="max-w-5xl mx-auto flex flex-col gap-10">
         {/* Header */}
         <div className="flex flex-col gap-2 text-right">
-          <h1 className="text-3xl font-bold text-zinc-900">تماس با ما</h1>
+          <h1 className="text-3xl font-bold text-orange-500">تماس با ما</h1>
           <p className="text-zinc-600">برای ارتباط با ما فرم زیر را تکمیل نمایید</p>
         </div>
 

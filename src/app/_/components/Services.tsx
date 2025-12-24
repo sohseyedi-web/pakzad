@@ -32,11 +32,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-10 flex flex-col lg:flex-row justify-between mx-auto gap-8  max-w-5xl">
+    <section className="py-10 lg:px-0 px-4 flex flex-col lg:flex-row justify-between mx-auto gap-8  max-w-5xl">
       {/* Title */}
       <div>
-        <h6 className="text-orange-500 font-semibold mb-2 text-3xl">گروه صنعتی پاکزاد</h6>
-        <p className="text-gray-700 text-lg">ما همراه شما هستیم</p>
+        <h6 className="text-orange-500 font-semibold mb-2 text-2xl">گروه صنعتی پاکزاد</h6>
+        <p className="text-gray-700 lg:text-lg text-base">ما همراه شما هستیم</p>
       </div>
 
       {/* Services */}

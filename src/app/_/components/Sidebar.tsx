@@ -6,7 +6,7 @@ const Sidebar = () => {
     <SidebarWrapper>
       <section className="flex flex-col w-full h-screen py-3 px-8">
         <div className=" text-right">
-          <h2 className="text-3xl font-bold text-[#292a35]">تامین پاکزاد مهر</h2>
+          <h2 className="text-3xl font-bold text-orange-500">تامین پاکزاد مهر</h2>
         </div>
         <ul className="flex-1 my-8 flex flex-col space-y-7">
           <Customlink title="خانه" to="/" />

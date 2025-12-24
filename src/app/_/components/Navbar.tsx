@@ -1,17 +1,23 @@
 'use client';
 import { useResponsive } from '@/context/ResponsiveProvider';
 import { Customlink } from '@/ui/Customlink';
-import { SiEquinixmetal } from 'react-icons/si';
 import { FaLinesLeaning } from 'react-icons/fa6';
 import { LuMail, LuPhone } from 'react-icons/lu';
+import Image from 'next/image';
 
 const Navbar = () => {
   const { active, setActive } = useResponsive();
 
   return (
-    <nav className="py-3 md:px-7 px-5 flex items-center justify-between border-b-2 border-[#e6e7ee] container mx-auto">
+    <nav className="md:px-7 px-3 flex items-center justify-between border-b-2 border-zinc-500 container mx-auto">
       <div className="flex items-center space-x-7">
-        <SiEquinixmetal size={40} className="text-orange-500 cursor-pointer" />
+        <Image
+          src="/logo.webp"
+          alt="پیشتاز تامین"
+          width={90}
+          height={90}
+          className="object-cover"
+        />
         <ul className="lg:flex hidden items-center space-x-7">
           <Customlink title="خانه" to="/" />
           <Customlink title="تجهیزات" to="/equipment" />
