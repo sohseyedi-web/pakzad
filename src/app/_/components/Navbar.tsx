@@ -20,10 +20,10 @@ const Navbar = () => {
         />
         <ul className="lg:flex hidden items-center space-x-7">
           <Customlink title="خانه" to="/" />
-          <Customlink title="تجهیزات" to="/equipment" />
-          <Customlink title="پروژه ها" to="/projects" />
-          <Customlink title="درباره ما" to="/about-us" />
-          <Customlink title="تماس با ما" to="/contact-us" />
+          <Customlink title="تجهیزات" to="/equipment/" />
+          <Customlink title="پروژه ها" to="/projects/" />
+          <Customlink title="درباره ما" to="/about-us/" />
+          <Customlink title="تماس با ما" to="/contact-us/" />
         </ul>
       </div>
       <div className="flex items-center space-x-4">

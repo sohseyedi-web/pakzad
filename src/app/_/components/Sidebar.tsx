@@ -10,10 +10,10 @@ const Sidebar = () => {
         </div>
         <ul className="flex-1 my-8 flex flex-col space-y-7">
           <Customlink title="خانه" to="/" />
-          <Customlink title="تجهیزات" to="/equipment" />
-          <Customlink title="پروژه ها" to="/projects" />
-          <Customlink title="درباره ما" to="/about-us" />
-          <Customlink title="تماس با ما" to="/contact-us" />
+          <Customlink title="تجهیزات" to="/equipment/" />
+          <Customlink title="پروژه ها" to="/projects/" />
+          <Customlink title="درباره ما" to="/about-us/" />
+          <Customlink title="تماس با ما" to="/contact-us/" />
         </ul>
       </section>
     </SidebarWrapper>

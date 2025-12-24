@@ -36,11 +36,11 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-3">دسترسی ها</h3>
           <ul className="space-y-3 text-sm flex-col flex">
             <Customlink title="خانه" to="/" />
-            <Customlink title="تجهیزات" to="/equipment" />
-            <Customlink title="پروژه ها" to="/projects" />
-            <Customlink title="چارت سازمانی" to="/structure" />
-            <Customlink title="درباره ما" to="/about-us" />
-            <Customlink title="تماس با ما" to="/contact-us" />
+            <Customlink title="تجهیزات" to="/equipment/" />
+            <Customlink title="پروژه ها" to="/projects/" />
+            <Customlink title="چارت سازمانی" to="/structure/" />
+            <Customlink title="درباره ما" to="/about-us/" />
+            <Customlink title="تماس با ما" to="/contact-us/" />
           </ul>
         </div>
 
